@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="icon", size="32x32", href="./images/favicon-32x32.png")
+    title Frontend Mentor | NFT preview card component
+
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet")
+    link(rel="stylesheet", href="main.css")
+  body 
+    //- 
+      Equilibrium #3429
+      Our Equilibrium collection promotes balance and calm.
+      0.041 ETH
+      3 days left
+      Creation of Jules Wyvern
+    main 
+      .card 
+        picture 
+          img(src="./images/image-equilibrium.jpg" alt="equilibrium")
+        h3 Equilibrium #3429
+        p Our Equilibrium collection promotes balance and calm.
+        .price 
+          div 
+            img(src="./images/icon-ethereum.svg" alt="ether logo")
+            | 0.041 ETH
+          div 
+            img(src="./images/icon-clock.svg" alt="clock logo")
+            | 3 days left
+        .creator 
+          img(src="./images/image-avatar.png", alt="Person")
+          p Creation of #[a(href="#") Jules Wyvern] 

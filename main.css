@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: hsl(217deg, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  max-width: 300px;
+  padding: 1rem;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 10px;
+}
+
+picture img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 1em;
+  color: hsl(0deg, 0%, 100%);
+}
+
+p {
+  margin-top: 1em;
+  font-size: 16px;
+  font-weight: 300;
+  color: hsl(215deg, 51%, 70%);
+}
+
+.price {
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: hsl(215deg, 51%, 70%);
+}
+
+.price div {
+  display: flex;
+  align-items: center;
+}
+
+.price div:first-child {
+  color: hsl(178deg, 100%, 50%);
+}
+
+.price div img {
+  margin-right: 0.5em;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  padding: 1em 0 0;
+  border-top: 1px solid hsl(215deg, 32%, 27%);
+}
+
+.creator img {
+  width: 32px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+}
+
+.creator p {
+  margin-top: 0;
+  margin-left: 1em;
+  font-size: 14px;
+}
+
+.creator p a {
+  color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

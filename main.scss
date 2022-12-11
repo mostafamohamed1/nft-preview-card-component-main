@@ -1,0 +1,97 @@
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+
+$dark-blue-main: hsl(217, 54%, 11%);
+$dark-blue-card: hsl(216, 50%, 16%);
+$dark-blue-line: hsl(215, 32%, 27%);
+
+$white: hsl(0, 0%, 100%);
+
+$font: "Outfit", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: $dark-blue-main;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  max-width: 300px;
+  padding: 1rem;
+  background-color: $dark-blue-card;
+  border-radius: 10px;
+}
+
+picture img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 1em;
+  color: $white;
+}
+
+p {
+  margin-top: 1em;
+  font-size: 16px;
+  font-weight: 300;
+  color: $soft-blue;
+}
+
+.price {
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: $soft-blue;
+}
+
+.price div {
+  display: flex;
+  align-items: center;
+}
+
+.price div:first-child {
+  color: $cyan;
+}
+
+.price div img {
+  margin-right: 0.5em;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  padding: 1em 0 0;
+  border-top: 1px solid $dark-blue-line;
+}
+
+.creator img {
+  width: 32px;
+  border: 1px solid $white;
+  border-radius: 50%;
+}
+
+.creator p {
+  margin-top: 0;
+  margin-left: 1em;
+  font-size: 14px;
+}
+.creator p a {
+  color: $white;
+  text-decoration: none;
+}
